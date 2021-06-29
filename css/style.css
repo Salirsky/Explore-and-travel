@@ -1,0 +1,337 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Playfair Display', serif; */
+
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 45px;
+    padding-bottom: 105px;
+}
+.nav {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.nav-item { 
+    margin-left: 34px;
+}
+.nav-item--register {   
+    margin-left: 18px;
+}
+.nav-link {
+    text-decoration: none;
+    font-size: 16px;
+    color: #B8BECD;
+}
+.nav-link:hover {
+    color: #202336;
+    transition: 0.2s ease color;
+}
+.nav-link--login {  
+    color: #FB8F1D;
+    font-weight: 500;
+    border: 1px solid #FB8F1D;
+    padding: 15px 46px;
+    border-radius: 8px;
+}
+.nav-link--register {  
+    color: #FFF;
+    background-color: #FB8F1D;
+    font-weight: 500;
+    border: 1px solid #FB8F1D;
+    padding: 15px 36px;
+    border-radius: 8px;
+}
+
+.wrapper {  
+    max-width: 1120px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.page-01, .page-02 { 
+    padding-bottom: 330px; 
+}
+.title-h1 { 
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #202336;
+}
+.title-h3 { 
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #202336;
+}
+.title-h3::after {  
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #202336;
+    width: 32px;
+    margin-top: 21px;
+}
+.form { 
+    display: flex;
+    max-width: 471px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form-select {  
+    flex: 0 0 48%;
+    border: 1px solid #AFB0B9;
+    border-radius: 6px;
+    padding: 21px 31px;
+    box-sizing: border-box;
+    margin-bottom: 35px;
+    color: #4A4C53;
+    font-family: 'Inter', sans-serif;
+    font-size: 15;
+    font-weight: 400;
+    appearance: none; /* убираем системную стрелку */
+    background-image: url(../img/arrow.svg);
+    background-size: 9.6px 6px;
+    background-repeat: no-repeat;
+    background-position: 184.25px 26px;
+}
+.form-btn { 
+    background-color: #FB8F1D;
+    color:#FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    border: none; 
+    padding: 18px 60px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+.img-main{  
+    position: absolute;
+    right: -85px;
+    top: -33px;
+}
+.page-02 .wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+.box {
+    max-width: 480px;
+}
+.box-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+.box-description {
+    font-family: 'Mulish', sans-serif;
+    color: #7D7987;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.5; /* устанавливает величину пространства между строками */
+    margin-bottom: 39px;
+}
+.box-link { 
+    background-color: #FB8F1D;
+    color:#FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px 38px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.page-02-img {
+    position:absolute;
+    left: -94px;
+    top: -110px;
+}
+
+.page-03-head {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.page-03-title, .page-04-title {
+    margin-top:0;
+    margin-bottom:0;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+.page-03-link {
+    color: #FB8F1D;
+    text-decoration: none;
+    background-image: url(/img/arrow-link.svg);
+    background-repeat: no-repeat;
+    padding-right:15px;
+    background-position: 99% 4px;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-item {
+    flex: 0 0 24%;
+    height: 332px;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    margin-top:56px;
+}
+
+.portfolio-item-01 {
+    background-image: url(../img/01.png) ;
+}
+.portfolio-item-02 {
+    background-image: url(../img/02.png) ;
+}
+.portfolio-item-03 {
+    background-image: url(../img/03.png) ;
+}
+.portfolio-item-04 {
+    background-image: url(../img/04.png) ;
+}
+
+.portfolio-text {   
+    background-color: #FFF;
+    display: inline-block; /*делаем элемент блочным и обтекаемым*/
+    padding-right: 15px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 6px 0 0;
+}
+
+.portfolio-text h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #042521;
+
+}
+
+.portfolio-text span {
+    display: block; /*перенос на новую строку */
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #80918E;
+    margin-top: 8px;
+}
+
+.page-03 {
+    padding-bottom: 450px; 
+}
+
+.page-04-text {
+    font-family: 'Mulish', sans-serif;
+    color: #7D7987;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 30px; /* устанавливает величину пространства между строками */
+    margin-bottom: 39px;
+    padding-top: 20px;
+}
+
+.page-04-btn {  
+    background-color: #FB8F1D;
+    color:#FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border: none; 
+    padding: 18px 43px;
+    border-radius: 8px;
+}
+
+.page-04-img {
+    position:absolute;
+    right: 0px;
+    top: -152px;
+}
+
+.page-04 {  
+    padding-bottom: 311px; 
+}
+
+.footer {   
+    background-color: #F9F9FB;
+}
+
+.columns {  
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.footer-log {
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 28px;
+}
+.footer-description {   
+    color:#848484;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 300; 
+    padding-bottom: 55px;
+    line-height: 28px;
+}
+
+.all-rights-reserved {  
+    color:#848484;
+    font-family: 'Mulish', sans-serif;
+    font-size: 17px;
+    font-weight: 300; 
+    padding-bottom: 81px;
+    line-height: 28px;
+}
+.column-title { 
+    font-family: 'Mulish', sans-serif;
+    color: #000000;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 50px;
+
+}
+.column-text {  
+    font-family: 'Mulish', sans-serif;
+    color: #7D7987;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 38px;
+
+}
+
+
+#rectangle {
+    width: 1219px;
+    height: 0.6px;
+    background: #C4C4C4;
+}
+
+.social {   
+    display: flex;
+    margin: 0 auto;
+    width: 248px;
+    height: 23px;
+    justify-content: space-between;
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
