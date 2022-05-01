@@ -31,10 +31,11 @@ body {
     text-decoration: none;
     font-size: 16px;
     color: #B8BECD;
+    transition: 0.3s ease color;
 }
 .nav-link:hover {
     color: #202336;
-    transition: 0.2s ease color;
+    transition: 0.3s ease color;
 }
 .nav-link--login {  
     color: #FB8F1D;
