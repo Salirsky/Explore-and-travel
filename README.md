@@ -1,4 +1,3 @@
-# Practic-01-Explore-and-travel
 
 URL: 
 https://salirsky.github.io/Explore-and-travel/
