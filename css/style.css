@@ -42,12 +42,18 @@ body {
     border: 1px solid #FB8F1D;
     padding: 15px 46px;
     border-radius: 8px;
+    transition: 0.3s ease all;
+}
+.nav-link--login:hover {
+    color: #015646;
+    transition: 0.3s ease all;
+    border: 1px solid #015646;
 }
 .nav-link--register {  
     color: #FFF;
     background-color: #FB8F1D;
     font-weight: 500;
-    border: 1px solid #FB8F1D;
+    /* border: 1px solid #FB8F1D; */
     padding: 15px 36px;
     border-radius: 8px;
 }
@@ -122,8 +128,9 @@ body {
 transition: 0.3s ease all;}
 
 .orange-btn:hover {
-   background-color: #85FFBA;
+   background-color: #015646;
    transition: 0.3s ease all;
+   color:#FFF;
 }
 
 .img-main{  
