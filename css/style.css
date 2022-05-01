@@ -117,11 +117,15 @@ body {
     border-radius: 8px;
     margin-top: 15px;
     transition: 0.3s ease all;
-    }
-.form-btn:hover {
-   background-color: #85FFBA
-       transition: 0.3s ease all;
 }
+.orange-btn {
+transition: 0.3s ease all;}
+
+.orange-btn:hover {
+   background-color: #85FFBA;
+   transition: 0.3s ease all;
+}
+
 .img-main{  
     position: absolute;
     right: -85px;
