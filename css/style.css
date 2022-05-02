@@ -126,7 +126,9 @@ body {
     transition: 0.3s ease all;
 }
 .orange-btn {
-transition: 0.3s ease all;}
+transition: 0.3s ease all;
+cursor: pointer;
+}
 
 .orange-btn:hover {
    background-color: #015646;
@@ -196,6 +198,12 @@ transition: 0.3s ease all;}
     background-repeat: no-repeat;
     padding-right:15px;
     background-position: 99% 4px;
+    transition: 0.3s ease all;
+}
+.page-03-link:hover {
+    color: #015646;
+    transition: 0.3s ease all;
+    background-image: url(/img/arrow-link-hover.svg);
 }
 
 .portfolio {
@@ -352,6 +360,7 @@ transition: 0.3s ease all;}
     padding-top: 31px;
     padding-bottom: 31px;
 }
+/* .social:hover {} */
 
 @media (max-width: 990px) {
     .img-main {
