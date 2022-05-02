@@ -220,6 +220,26 @@ cursor: pointer;
     background-size: cover;
     border-radius: 8px;
     margin-top:56px;
+    transition: 0.3s ease all;
+    
+}
+.portfolio-item:hover {
+    transition: 0.3s ease all;
+    filter: contrast(106%);
+    filter: brightness(1.15);
+    border-radius: 0px;
+
+
+}
+.portfolio-item:hover .portfolio-text h3 {
+    color: #015646;
+    transition: 0.3s ease all;
+}
+.portfolio-item:hover .portfolio-text {
+    filter: contrast(100%);
+    filter: brightness(1.0);
+    border-radius: 0;
+    transition: 0.3s ease all;
 }
 
 .portfolio-item-01 {
@@ -242,6 +262,8 @@ cursor: pointer;
     position: absolute;
     bottom: 0;
     border-radius: 0 6px 0 0;
+    filter: contrast(100%);
+    filter: brightness(1.0);
 }
 
 .portfolio-text h3 {
@@ -249,6 +271,7 @@ cursor: pointer;
     font-weight: 600;
     font-size: 17px;
     color: #042521;
+    transition: 0.3s ease all;
 
 }
 
