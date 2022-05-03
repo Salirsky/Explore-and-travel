@@ -358,16 +358,25 @@ cursor: pointer;
     line-height: 50px;
 
 }
-.column-text {  
-    font-family: 'Mulish', sans-serif;
-    color: #7D7987;
+.column-text_ul {  
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    font-family: 'Mulish', sans-serif;  
     font-size: 18px;
     font-weight: 300;
     line-height: 38px;
-
+    
 }
-
-
+.column-text_link {
+    text-decoration: none;
+    color: #7D7987;
+    transition: 0.3s ease all;
+}
+.column-text_link:hover {
+    color: #FB8F1D;
+    transition: 0.3s ease all;
+}
 #rectangle {
     width: 1219px;
     height: 0.6px;
