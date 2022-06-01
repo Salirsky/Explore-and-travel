@@ -418,9 +418,9 @@ cursor: pointer;
 }
 @media (max-width: 810px) {
     .img-main {
-        width: 40%;
-        right: 60px;
-        top: -50px;
+        width: 56%;
+        right: 43px;
+        top: 211px;
         opacity: 100%;       
     }
     .form { 
@@ -429,18 +429,44 @@ cursor: pointer;
 }
 @media (max-width: 750px) {
     .img-main {
-        width: 35%;
-        right: 60px;
-        top: -50px;
+        width: 53%;
+        right: 37px;
+        top: 249px;
         opacity: 100%;       
     }
+    .form { 
+        max-width: 300px;
+    }
+    .form-select {  
+        background-position: 130px 26px;
+    }
+
 }
 
 @media (max-width: 685px) {
     .img-main {
-        opacity: 0%;       
+        width: 53%;
+        right: 37px;
+        top: 249px;
+        opacity: 100%;       
     }
 }
+
+@media (max-width: 550px) {
+    .img-main {
+        width: 53%;
+        right: 37px;
+        top: 249px;
+        opacity: 00%;       
+    }
+    .form { 
+        max-width: 400px;
+    }
+    .form-select {  
+        background-position: 185px 26px;
+    }
+}
+
 
 @media (max-width: 400px) {
     .form-select {  
