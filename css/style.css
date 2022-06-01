@@ -397,18 +397,16 @@ cursor: pointer;
 @media (max-width: 1115px) {
     .img-main {
         width: 45%;
-        right: 60px;
-        top: -30px;
+        right: 91px;
+        top: -111px;
         opacity: 100%;            
     }
 }
-
-
 @media (max-width: 990px) {
     .img-main {
         width: 60%;
-        right: 60px;
-        top: -20px;
+        right: 49px;
+        top: 172px;
         opacity: 100%;          
     }
     .form { 
@@ -418,7 +416,6 @@ cursor: pointer;
         flex: 0 0 60%;
     }
 }
-
 @media (max-width: 810px) {
     .img-main {
         width: 40%;
@@ -430,7 +427,6 @@ cursor: pointer;
         max-width: 400px;
     }
 }
-
 @media (max-width: 750px) {
     .img-main {
         width: 35%;
