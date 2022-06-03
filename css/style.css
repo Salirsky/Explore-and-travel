@@ -21,6 +21,16 @@ body {
     list-style: none;
     padding-left: 0;
 }
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.nav-btns {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
 .nav-item { 
     margin-left: 34px;
 }
@@ -426,6 +436,24 @@ cursor: pointer;
     .form { 
         max-width: 400px;
     }
+    .nav {
+        flex-wrap: wrap;
+    }
+    .nav-links {
+        justify-content: space-between;
+    }
+    .nav-btns {
+        padding-top: 60px;
+        justify-content: space-between;
+        margin: 0;
+    }
+    .nav-item { 
+        padding-left: 50px;
+    }
+    .nav-item--register {   
+        margin-left: 18px;
+    }
+
 }
 @media (max-width: 750px) {
     .img-main {
@@ -439,6 +467,10 @@ cursor: pointer;
     }
     .form-select {  
         background-position: 130px 26px;
+    }
+    nav {
+        display: flex;
+        flex-wrap: wrap;
     }
 
 }
