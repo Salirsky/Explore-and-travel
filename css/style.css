@@ -219,31 +219,32 @@ cursor: pointer;
 .portfolio {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 56px;
 }
 
 .portfolio-item {
     flex: 0 0 24%;
     height: 332px;
+    width: 100%;
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
-    margin-top:56px;
     transition: 0.3s ease all;
-    
+    margin-top: 5px;
 }
 .portfolio-item:hover {
     transition: 0.3s ease all;
     filter: contrast(106%);
     filter: brightness(1.15);
     border-radius: 0px;
-
-
 }
 .portfolio-item:hover .portfolio-text h3 {
     color: #015646;
     transition: 0.3s ease all;
+
 }
 .portfolio-item:hover .portfolio-text {
     filter: contrast(100%);
@@ -491,12 +492,11 @@ cursor: pointer;
     pointer-events: all;
  }
 
-
+/* BURGER */
 @media (min-width: 871px) {
     .menu {
         display: none;
-    }
-    
+    }   
 }
 @media (max-width: 870px) {
     nav,
@@ -554,9 +554,7 @@ cursor: pointer;
         margin: 30px auto;
     }
 }
-
-
-
+/* BURGER-end */
 
 @media (max-width: 1115px) {
     .img-main {
@@ -564,6 +562,10 @@ cursor: pointer;
         right: 91px;
         top: -111px;
         opacity: 100%;            
+    }
+    .portfolio-item {
+        flex: 0 0 31%;
+        margin-top: 25px;
     }
 }
 @media (max-width: 990px) {
@@ -579,6 +581,7 @@ cursor: pointer;
     .form-select {  
         flex: 0 0 60%;
     }
+
 }
 @media (max-width: 810px) {
     .img-main {
@@ -590,24 +593,10 @@ cursor: pointer;
     .form { 
         max-width: 400px;
     }
-    /* .nav {
-        flex-wrap: wrap;
+    .portfolio-item {
+        flex: 0 0 47%;
+        margin-top: 25px;
     }
-    .nav-links {
-        justify-content: space-between;
-    }
-    .nav-btns {
-        padding-top: 60px;
-        justify-content: space-between;
-        margin: 0;
-    }
-    .nav-item { 
-        padding-left: 50px;
-    }
-    .nav-item--register {   
-        margin-left: 18px;
-    } */
-
 }
 @media (max-width: 750px) {
     .img-main {
@@ -622,17 +611,10 @@ cursor: pointer;
     .form-select {  
         background-position: 130px 26px;
     }
-    /* .nav-item { 
-        padding-left: 30px;
-    }
-    .nav-item--register {   
-        margin-left: 18px;
-    } */
-
 }
 
 @media (max-width: 685px) {
-    .img-main {
+    .img-main  {
         width: 53%;
         right: 37px;
         top: 249px;
@@ -641,7 +623,7 @@ cursor: pointer;
 }
 
 @media (max-width: 550px) {
-    .img-main {
+    .img-main  {
         width: 53%;
         right: 37px;
         top: 249px;
@@ -652,6 +634,10 @@ cursor: pointer;
     }
     .form-select {  
         background-position: 185px 26px;
+    }
+    .portfolio-item {
+        flex: 0 0 80%;
+        margin-top: 25px;
     }
 }
 
