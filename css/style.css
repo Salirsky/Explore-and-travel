@@ -556,6 +556,7 @@ cursor: pointer;
 }
 /* BURGER-end */
 
+/*  .img-main - поменять расположение картинки - снизу под блоком формы */
 @media (max-width: 1115px) {
     .img-main {
         width: 45%;
